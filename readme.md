@@ -1,7 +1,7 @@
 
 
 ### Cargo
-
+----
 ```bash
 cargo init --bin | --lib
 ```
@@ -22,3 +22,17 @@ cargo build --release
 ```
 -> build release
 
+### Rust fmt
+----
+```bash
+cargo fmt
+```
+-> format
+```bash
+rustfmt <file_path>
+```
+-> format
+```bash
+rustfmt src/*.rs
+```
+-> format file is rust
