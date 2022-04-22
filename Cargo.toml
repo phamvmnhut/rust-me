@@ -1,0 +1,18 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+links = "z"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+time = "0.1.12"
+regex = "0.1.41"
+hello_utils = { path = "hello_utils" }
+world_utils = { path = "hello_utils_2", package = "hello_utils_2"}
+hello_test = { path = "hello_test" }
+
+[build-dependencies]
+cc = "1.0"
+pkg-config = "0.3.16"
