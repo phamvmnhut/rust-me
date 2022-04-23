@@ -12,6 +12,7 @@ regex = "0.1.41"
 hello_utils = { path = "hello_utils" }
 world_utils = { path = "hello_utils_2", package = "hello_utils_2"}
 hello_test = { path = "hello_test" }
+guessing_game = { path = "guessing_game" }
 
 [build-dependencies]
 cc = "1.0"
